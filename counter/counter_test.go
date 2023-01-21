@@ -3,7 +3,7 @@ package counter_test
 import (
 	"testing"
 
-	"example.com/counter"
+	"github.com/walkersumida/exporttest-sample/counter"
 )
 
 func TestReset(t *testing.T) {

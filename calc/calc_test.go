@@ -3,7 +3,7 @@ package calc_test
 import (
 	"testing"
 
-	"example.com/calc"
+	"github.com/walkersumida/exporttest-sample/calc"
 )
 
 func TestSum(t *testing.T) {

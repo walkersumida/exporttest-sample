@@ -4,8 +4,8 @@ func sum(x, y int) int {
 	return x + y
 }
 
-func join(x, y string) string {
-	return x + y
+func Ave(x, y int) int {
+	return (x + y) / 2
 }
 
 type Counter struct {

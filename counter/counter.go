@@ -7,6 +7,9 @@ type Counter struct {
 func (c *Counter) Count() {
 	c.n++
 }
+func (c *Counter) Get() int {
+	return c.n
+}
 func (c *Counter) reset() {
 	c.n = 0
 }
